@@ -1,4 +1,22 @@
-# npm
+# Aplicacion web de piano 
+Web de practicas que permite tocar el piano con raton y teclado 
+
+## tecnologias
+
+-npm
+-vite
+-vitest
+
+## dependencia
+
+-tonejs
+-gh-pages
+
+## deploy
+
+https://nicolasmarinezroo.github.io/Piano/
+
+## Comandos
 
 Descarga las dependencias del proyecto
 ```bash
@@ -20,6 +38,10 @@ Para instalar una dependendia en particular
 npm instal tone
 ```
 
+Deployear en gitHub
+```bash
+npm run deploy
+```
 # Instrucciones
  
 Quiero una pagina web que permita tocar el piano. 
@@ -35,10 +57,10 @@ Se podra tocar con el teclado del ordenador
 
 # Sprint 2
 
-- [ ] Permitir que el usuario toque las teclas con el teclado del ordenador
-- [ ] Incorporar sonidos reales
-- [ ] Refactorizar
-- [ ] Testear
+- [x] Permitir que el usuario toque las teclas con el teclado del ordenador
+- [x] Incorporar sonidos reales
+- [x] Refactorizar
+- [x] Testear
 - [x] Deployar
 
 
