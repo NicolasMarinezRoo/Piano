@@ -51,3 +51,17 @@ body{
 [data-note = 'A#4']{
     left: 298px;
 }
+
+.white-key:hover{
+    background-color: rgb(255, 255, 196);
+}
+.black-key:hover{
+    background-color: rgb(68, 68, 68);
+}
+.key.active{
+    background-color: rgb(255, 255, 196);
+}
+.pressed{
+    background-color: rgb(255, 255, 196);
+
+}

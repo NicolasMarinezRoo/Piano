@@ -28,6 +28,8 @@ document.addEventListener('keyup', stopNote)
 function ctrlTeclado(event){
     let keyName = event.key
     let note = getNoteFromKey(keyName)
+    let key = document.querySelector('[data-note='+note+']')
+    key && key.classList.add('pressed')
     playNote(note)
 }
 
@@ -39,6 +41,10 @@ function playNote(note){
 
 }
 
-function stopNote(){
+function stopNote(event){
+    let keyName = event.key
+    let note = getNoteFromKey(keyName)
+    let key = document.querySelector('[data-note='+note+']')
+    key && key.classList.remove('pressed')
     synth.triggerRelease(null);
 }
